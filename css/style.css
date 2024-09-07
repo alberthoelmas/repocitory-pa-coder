@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(59, 29, 8);
+}
+p{
+    font-size: 25px;
+    color: rgb(236, 125, 46);
+
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 50px;
+    color: white;
+}
+img{
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(109, 55, 17);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;  
+    align-items: center;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+h3{
+    color:white;
+    margin-bottom: 50px;
+    font-size:50px;
+    
+    align-items: center;
+}
+
+h4{
+    font-size: 30px;
+    color: white;
+} 
+
+h5{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 150px;
+    background-color: rgb(197, 84, 3);
+    display: flex;
+    border:solid;
+    justify-content: space-between;
+    flex-direction: row ;
+    
+}
+/*header li{
+    border: none;
+    padding: 10px;
+    margin: 0px 10px;   
+}*/
+
+.videoDeBienvenida {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.columnear{
+    margin-bottom: 40px;
+}
+
+.divdiv{
+    width: 350px;
+    height: 300px;
+    flex-direction:row;
+}
+
+.perfilesProfesionales{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+}
+.ordenarImagenes li{
+    display: flex;
+    flex-direction:row;
+}
+
+.tercerArchivoEdit{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+.ordenarImagenes2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ordenarImagenes2 div{
+    margin-bottom: 50px;
+    
+}
+
+.ordenarImagenes2 img{
+    width: 300px;
+    height: 200px;
+}
+
+.seudoa:hover {
+     color: white;
+    font-size: 30px;
+}
+
+.centrarArch5{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 30px;
+}
+
+.pocisionarIslas{
+    margin:120px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pocisionarIslas p{
+    color:black;
+} .pocisionarIslas a{
+    color:white;
+    margin-bottom: 60px;
+    font-size:40px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+.propagandas{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.propagandas a {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 355px;
+    background-color: rgb(110, 47, 3);
+    margin-top: 100px;
+}
