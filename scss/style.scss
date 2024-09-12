@@ -1,5 +1,19 @@
-$fondoColor: black;
-header{
-    background-color:$fondoColor;
+@import "base";
+@import "contacto";
+@import "galeria";
+@import "productos";
+@import "sobrenosotros";
 
+
+$colordeheader: aqua;
+$colorpabody: white;
+header{
+    background-color: $colordeheader;
+    a{
+        color: white;
+    }
+}
+body{
+    border-bottom: 20px;
+    background-color:$colorpabody;
 }
