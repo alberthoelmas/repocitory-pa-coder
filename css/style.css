@@ -1,37 +1,206 @@
-* {
-  margin: 0;
-  padding: 0;
+body{
+  background-color: #8D6F64;
+  width: 100%;
+  height: auto;
+}
+p{
+  text-shadow: 2px 2px 5px black;
+  font-size: 25px;
+  color: rgb(236, 125, 46);
 }
 
-/*$colordeheader: aqua;
-$colorpabody: rgb(59, 29, 8);
-$colorfooter: rgb(110, 47, 3);
-$colores: aqua white rgb(110, 47, 3);
+img{
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color:#EFC8B9;
+}
 
-selector{
-    div:nth($colores,3);
+h2{
+  text-shadow: 2px 2px 5px black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+h3{
+  text-shadow: 2px 2px 5px black;
+  color:white;
+  margin-top:50px;
+  margin-bottom: 50px;
+  font-size:50px;
+  align-items: center;
+}
+h4{
+  font-size: 30px;
+  color: white;
+} 
+h5{
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  color:rgb(0, 0, 0);
 }
 
 header{
-    background-color: $colordeheader;
-    a{
-        color: white;
-    }
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between ;
+  background-color: #361b12;
+  background-image: linear-gradient( #361b12(85, 57, 38) 95%,  #8D6F64 );
+  font-size: 40px;
+  margin-bottom: 30px;
 }
-body{
-    border-bottom: 20px;
-    background-color:$colorpabody;
-}*/
-header {
-  background-color: aqua;
+nav{
+  display:flex;
+  flex-direction: row;
 }
-header a {
+header ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;  
+  align-items: center;
+  margin-right: 50px;
+}
+header li{
+  list-style-type: none;
+  padding: 10px;
+}
+header a{
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 40px;
+  color: #EFC8B9;
+}
+.seudoa:hover {
+  color: #EBCABF;
+  font-size: 45px;
+}
+/*aqui termina header*/
+.fraccion{
+  margin-top: 70px;
+}
+.buscadorDetrabajo{
+  margin-top: 100px;
+}
+.agrandarBuscador{
+  margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    font-size: 18px; /* Tamaño de la fuente dentro del input */
+      padding: 10px; /* Espacio interno alrededor del texto */
+      margin: 20px; /* Espacio externo alrededor del input */
+      border-radius: 10px; /* Bordes redondeados */
+      border: 2px solid  #361b12;
+}
+
+.tercerArchivoEdit{
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+.ordenarImagenes2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ordenarImagenes2 div{
+  margin-bottom: 50px;
+  
+}
+.ordenarImagenes2 img{
+  width: 300px;
+  height: 200px;
+}
+
+.centrarArch5{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 30px;
+}
+/*aqui empieza los carruceles*/
+.pocisionarIslas{
+  margin:120px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pocisionarIslas p{
+  color:black;
+} 
+.pocisionarIslas a{
+  color:white;
+  margin-bottom: 60px;
+  font-size:40px;
+  display: flex;
+  align-items: center;
+}
+.clareal {
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+  margin-top: 60px;
+  margin-bottom: 30px;
   color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  /*aqui termina los carruceles*/
+}
+footer{
+  width: 100%;
+  height:auto;
+  background-color: rgb(110, 47, 3);
+  margin-top: 100px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+.arreglarra{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  color:black;
+  text-shadow: 2px 2px 5px white;
+  animation: blink-shadow 1s infinite alternate;
+}
+/*aqui empieza 2do archivo(contacto)*/
+
+.crearcrear{
+  width: 50%;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: transparent;
+  padding-top: 30px;
+}
+.crearcrear form input{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
 }
 
-body {
-  border-bottom: 20px;
-  background-color: white;
-}
+/*  section.centrado {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+            
 
-/*# sourceMappingURL=style.css.map */
+.ponerencolum{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  
+}*/
